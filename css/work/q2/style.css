@@ -1,5 +1,38 @@
 @charset "UTF-8";
 
+.q2_table{
+  table-layout: auto;
+  width: 100%;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+table tr:nth-child(even) {
+  background-color: #ecf1f2;
+}
+
+table tr:nth-child(odd) {
+  background-color: #dedede;
+}
+
+table tr:last-child {
+  border-top: 2px dashed #000;
+}
+
+table tr:first-child {
+  border-top: 1px solid white;
+}
+
+td,th {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+th {
+  background-color: #2244aa;
+  color: white;
+}
 
 /* q2が終わったら
 q3のcssはq3フォルダの中のcssファイルに記述してください */
