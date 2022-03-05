@@ -1,5 +1,60 @@
 @charset "UTF-8";
 
+.q4_text_center {
+  text-align: center;
+}
 
+.q4_blue_inline {
+  display: inline-block;
+}
+
+.q4_blue_margin {
+  margin: 0 auto;
+}
+
+.q4_blue_table {
+  display: table;
+}
+
+.q4_table_cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.q4_display_inline {
+  display: inline-block;
+}
+
+.q4_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.q4_position {
+  position: relative;
+}
+
+.q4_fixed {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.q4_transform {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}
 /* q4が終わったら
 q5のcssはq5フォルダの中のcssファイルに記述してください */
