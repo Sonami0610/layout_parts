@@ -8,11 +8,11 @@
 }
 
 table tr:nth-child(even) {
-  background-color: #ecf1f2;
+  background-color: #dedede;
 }
 
 table tr:nth-child(odd) {
-  background-color: #dedede;
+  background-color: #ecf1f2;
 }
 
 table tr:last-child {
