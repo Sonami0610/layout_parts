@@ -7,7 +7,7 @@
   line-height: 26px;
 }
 
-table tr:nth-child(odd) {
+table tr:nth-child(even) {
   background-color: #ecf1f2;;
 }
 
