@@ -7,12 +7,8 @@
   line-height: 26px;
 }
 
-table tr:nth-child(even) {
-  background-color: #dedede;
-}
-
 table tr:nth-child(odd) {
-  background-color: #ecf1f2;
+  background-color: #ecf1f2;;
 }
 
 table tr:last-child {
@@ -20,13 +16,13 @@ table tr:last-child {
 }
 
 table tr:first-child {
-  border-top: 1px solid white;
+  border-top: 1px solid #dedede;
 }
 
 td,th {
   text-align: center;
   padding: 10px;
-  border: 1px solid white;
+  border: 1px solid #dedede;
 }
 
 th {

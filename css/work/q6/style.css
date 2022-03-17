@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+.animation {
+  animation-iteration-count:infinite;
+  animation-delay: 10s;
+  width: 960px;
+  animation-direction: normal;
+}
 
 /* q6が終わったら
 q7のcssはq7フォルダの中のcssファイルに記述してください */

@@ -1,5 +1,38 @@
 @charset "UTF-8";
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.q5_float {
+  float: left;
+  width: 400px;
+  margin: 15px;
+}
+
+.q5_table {
+  display: table;
+}
+
+.q5_table>.q5_table-cell {
+  display: table-cell;
+  padding: 60px;
+  vertical-align: middle;
+}
+
+.q5_inline {
+  display: inline-block;
+}
+
+.q5_flex {
+  flex: auto;
+}
+
+.q5_calc {
+  
+}
 
 /* q5が終わったら
 q6のcssはq6フォルダの中のcssファイルに記述してください */
