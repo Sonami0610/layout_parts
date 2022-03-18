@@ -15,13 +15,13 @@
   border-top: 2px dashed #000;
 }
 
-td,th {
+.q2_table td,th {
   text-align: center;
   padding: 10px;
   border: 1px solid #dedede;
 }
 
-th {
+.q2_table th {
   background-color: #2244aa;
   color: white;
 }
