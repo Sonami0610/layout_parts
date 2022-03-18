@@ -84,11 +84,5 @@
   right: 0;
 }
 
-.q3_fixed_box {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-}
-
 /* q3が終わったら
 q4のcssはq4フォルダの中のcssファイルに記述してください */
