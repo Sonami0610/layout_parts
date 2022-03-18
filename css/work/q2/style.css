@@ -15,7 +15,7 @@
   border-top: 2px dashed #000;
 }
 
-.q2_table td,th {
+.q2_table td,.q2_table th {
   text-align: center;
   padding: 10px;
   border: 1px solid #dedede;
