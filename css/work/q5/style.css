@@ -14,24 +14,41 @@
 
 .q5_table {
   display: table;
+  width: 100%;
 }
 
-.q5_table>.q5_table-cell {
+.q5_table-cell {
   display: table-cell;
-  padding: 60px;
-  vertical-align: middle;
+  padding-left: 60px;
+}
+
+.q5_table-cell:first-child {
+  padding-left: 0;
 }
 
 .q5_inline {
   display: inline-block;
+  width: 400px;
+  margin-left: 25px;
 }
 
 .q5_flex {
-  flex: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.q5_a {
+  display: block;
+  width: 100%;
+  /* letter-spacing: -1em; */
+  white-space: nowrap;
 }
 
 .q5_calc {
-  
+  display: inline-block;
+  width: 33.33%;
+  /* letter-spacing: normal; */
+  white-space: normal;
 }
 
 /* q5が終わったら
