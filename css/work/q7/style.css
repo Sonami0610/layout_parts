@@ -1,7 +1,58 @@
 @charset "UTF-8";
 
-.q7_line {
+.q7_img {
+  position: absolute;
+}
+
+.q7_img_box {
+  position: relative;
+  top: 140px;
+  right: 500px;
+}
+
+.q7_box {
+  float: left;
+  position: relative;
+  top: 10px;
+  left: 200px;
+  width: 550px;
+}
+
+.balloon-left {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0 1.5em 35px;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
   font-size: 16px;
+  border: solid 5px #222;
   border-radius: 30px;
-  border: 5px #222;
+}
+
+.balloon-left:before {
+  content: "";
+  position: absolute;
+  top: 75%;
+  left: -23px;
+  margin-top: -12px;
+  border: 12px solid transparent;
+  border-right: 12px solid #fff;
+  z-index: 2;
+}
+
+.balloon-left:after {
+  content: "";
+  position: absolute;
+  top: 75%;
+  left: -29px;
+  margin-top: -12px;
+  border: 12px solid transparent;
+  border-right: 12px solid #222;
+  z-index: 1;
+}
+
+.balloon-left p {
+  margin: 20px;
+  padding: 0;
 }
