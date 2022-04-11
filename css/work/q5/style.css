@@ -37,17 +37,21 @@
   justify-content: space-between;
 }
 
+.q5_white_box {
+  width: 400px;
+  /* justify-content: space-between; */
+}
+
 .q5_a {
   display: block;
-  width: 100%;
-  /* letter-spacing: -1em; */
   white-space: nowrap;
 }
 
 .q5_calc {
   display: inline-block;
   width: 33.33%;
-  /* letter-spacing: normal; */
+  margin: 0 30px 30px 0;
+  width: calc(33.3333333% - 34px);
   white-space: normal;
 }
 
