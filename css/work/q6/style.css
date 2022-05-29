@@ -12,60 +12,56 @@
   float: left;
   position: relative;
   overflow: hidden;
+  margin: 50px;
 }
 
 .q6_img {
+  max-width: 300px;
   width: 100%;
   height: 100%;
   position: absolute;
-  display: inline-block;
-  text-align: center;
+}
+
+.q6_1 {
+  display: flex;
+  justify-content: center;
 }
 
 .q6_img_large {
   transition: 0.5s all;
 }
 
-.q6_img_large:hover{
-  transform: scale(1.5,1.5);
+.q6_img_large img:hover {
   transition: 0.5s all;
-  /* overflow: hidden; */
-  /* opacity: 1; */
-  /* bottom: -100%; */
-  /* background: rgba(0, 0, 0, 0.8) */
+  transform: scale(1.5,1.5);
 }
 
-.q6_img_text {
-  position: relative;
+.q6_text p {
+  position: absolute;
   color: #fff;
   bottom: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-/* figcaption.hover-mask {
-  opacity: 1;
-  transition:all 0.6s ease;
-  bottom: -100%;
-  background: rgba(0, 0, 0, 0.8)
-  } */
-  /* figure.hover-parent:hover .hover-mask {
-  bottom: 0;
-  } */
+.q6_text_slide img:hover {
+  transition: 0.5s all;
+  background: rgba(0, 0, 0, 0.8);
+}
 
 .q6-2_animation {
   width: 960px;
   height: 500px;
-  margin: auto;
   padding: 90px;
 }
 
 .q6-2_animation p {
-  height: 100%;
   font-size: 200px;
   display: inline-block;
 }
 
 .q6-2_animation_text{
-  /* animation: loop 10s linear infinite; */
   animation-iteration-count:infinite;
   animation-delay: 10s;
   animation-direction: normal;
