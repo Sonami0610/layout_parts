@@ -43,11 +43,12 @@
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
+  background:rgba(0, 0, 0, 0.8);
 }
 
-.q6_text_slide img:hover {
+.q6_text {
   transition: 0.5s all;
-  background: rgba(0, 0, 0, 0.8);
+  /* background-color: rgba(0, 0, 0, 0.8); */
 }
 
 .q6-2_animation {
@@ -56,15 +57,31 @@
   padding: 90px;
 }
 
+@keyframes loop{
+  from {
+    transform: translateX(0%)
+  }
+  to {
+    transform: translateX(-100%)
+  }
+}
+
 .q6-2_animation p {
   font-size: 200px;
   display: inline-block;
 }
 
-.q6-2_animation_text{
-  animation-iteration-count:infinite;
-  animation-delay: 10s;
+.q6-2_animation_slide p {
+  animation: loop 10s linear infinite;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
   animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: loop;
 }
+
 /* q6が終わったら
 q7のcssはq7フォルダの中のcssファイルに記述してください */
