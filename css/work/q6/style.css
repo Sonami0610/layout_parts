@@ -20,6 +20,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
+  transition: 0.5s;
 }
 
 .q6_1 {
@@ -28,11 +29,11 @@
 }
 
 .q6_img_large {
-  transition: 0.5s all;
+  transition: 0.5s;
 }
 
 .q6_img_large:hover .q6_img {
-  transition: 0.5s all;
+  transition: 0.5s;
   transform: scale(1.5,1.5);
 }
 
@@ -67,14 +68,15 @@
 
 /* 文字が横に流れる↓ */
 .q6-2_animation {
-  width: 960px;
   height: 500px;
   padding: 90px;
+  overflow: hidden;
+  position: relative;
 }
 
 @keyframes loop{
   from {
-    transform: translateX(0%)
+    transform: translateX(100%)
   }
   to {
     transform: translateX(-100%)
