@@ -5,13 +5,18 @@
   display: block;
   clear: both;
 }
-
+/* q5-1 floatの横並び↓ */
 .q5_float {
   float: left;
   width: 400px;
-  margin: 15px;
+  margin-left: 60px;
 }
 
+.q5_float:first-child {
+  margin-left: 0;
+}
+
+/* q5-2 tableでの横並び↓ */
 .q5_table {
   display: table;
   width: 100%;
@@ -26,12 +31,23 @@
   padding-left: 0;
 }
 
+/* q5-3 inline-blok での横並び↓ */
 .q5_inline {
   display: inline-block;
   width: 400px;
-  margin-left: 25px;
+  margin-left: 60px;
+  /* font-size: 0; */
 }
 
+.q5_font-size0 {
+  font-size: 0;
+}
+
+.q5_inline:first-child {
+  margin-left: 0;
+}
+
+/* q5-4 flex での横並び↓ */
 .q5_flex {
   display: flex;
   justify-content: space-between;
@@ -39,10 +55,10 @@
 
 .q5_white_box {
   width: 400px;
-  /* justify-content: space-between; */
 }
 
-.q5_a {
+/* q5-5 calcでの横並び↓ */
+.q5_box {
   display: block;
   white-space: nowrap;
 }
@@ -50,9 +66,13 @@
 .q5_calc {
   display: inline-block;
   width: 33.33%;
-  margin: 0 30px 30px 0;
+  margin-left: 30px;
   width: calc(33.3333333% - 34px);
   white-space: normal;
+}
+
+.q5_calc:first-child {
+  margin-left: 15px;
 }
 
 /* q5が終わったら
